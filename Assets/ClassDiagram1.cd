@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GoogleMobileAds.Api.AdFailedToLoadEventArgs" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.AdLoader" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GCAAgQBAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\AdLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.AdRequest" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAACABgAAAAgAEAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\AdRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.AdSize" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACABAABAAQAQAABAEAAAAAAAAEACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\AdSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.BannerView" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAAAAAAAAAAAAAAEAAAAAQQAABEAAAAAAAABEAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\BannerView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.CustomNativeEventArgs" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\CustomNativeEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.CustomNativeTemplateAd" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAAAAAAIAAAAAAAEAAAAAAIAAAACBAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\CustomNativeTemplateAd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.InterstitialAd" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAAAAAAAAAAAAAIAAAAAAQQAABEAAAAAAAABEAAAAQ=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\InterstitialAd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.NativeExpressAdView" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAAAAAAAAAAAAAAEAAAAAQQAABEAAAAAAAABEAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\NativeExpressAdView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.Reward" Collapsed="true">
+    <Position X="22" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\Reward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Api.RewardBasedVideoAd" Collapsed="true">
+    <Position X="23.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAAAAAAAAAAAAAIAAAAAAQQAABEAAEAQAAABEBAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Common.DummyClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2CAAgABQQQAAAAAIAAEDCAyQAACCAAmAAABAAEBAQEA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Common\DummyClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GoogleMobileAds.Common.Utils" Collapsed="true">
+    <Position X="22" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Common\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Android.AdLoaderClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAKIABAAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GoogleMobileAds.Android.BannerClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAIAAAAAQACAAAAAAEBAAQQAAAAEAEAAAAAAEAAQAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GoogleMobileAds.Android.CustomInAppPurchaseListener" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\CustomInAppPurchaseListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Android.CustomNativeTemplateClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAAAAAAIAAAAAAAEAAEAAAEAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GoogleMobileAds.Android.DefaultInAppPurchaseListener" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\DefaultInAppPurchaseListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.Android.CustomInAppPurchase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\InAppPurchase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GoogleMobileAds.Android.InAppPurchaseResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\InAppPurchaseResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GoogleMobileAds.Android.InterstitialClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAIAAAAQAACAAAIAAEAAAQQAACAEICAAABAAEAAAEA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GoogleMobileAds.Android.NativeExpressAdClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WCAIAAAQAAACAAAAAAEAAASUAAACEAAAAAAAAEAAQAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GoogleMobileAds.Android.RewardBasedVideoAdClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0GAIAAAAAAACAAAIAAECCAQQAQAAEAMAAAAAAEBAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GoogleMobileAds.Android.Utils" Collapsed="true">
+    <Position X="34.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAICgkAFAAAAESCgCBAAAAAAAABAAIEAIAGAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\Android\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleMobileAds.GoogleMobileAdsClientFactory" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAQACAABAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoPInvokeCallbackAttribute" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Demo" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYGIAAMgCAAAAAIAAAQAAQAAQJAAaAIoASBAgACIEA=</HashCode>
+      <FileName>Assets\Scripts\Admobs\Demo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ErrorNetwork" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Admobs\ErrorNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeColorCamera" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQWAAKABDICAEAAABUACBCEAAAAAACgQAQQQCCAAEo=</HashCode>
+      <FileName>Assets\Scripts\Camera\ChangeColorCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FollowCamera" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAAgAhAAgAJAAAAAAAABAAAAgAAAQQAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Camera\FollowCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotationCamera" Collapsed="true">
+    <Position X="27.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQEAgAAAAAYAIAABAGAAAABAAAIEAAEgAABIAAEgEQ=</HashCode>
+      <FileName>Assets\Scripts\Camera\RotationCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AvataFacebook" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAACAAAAAAAAAAAAAAEAAAAgAAAAQAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\FaceBook\AvataFacebook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FacebookManager" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAUECAAAAAAAEAAAAAAAAEAgAgAiQAAYAACQIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\FaceBook\FacebookManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FBScripts" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQQAAAAAAAABQAAAEEIAAEAAIQUCAJAQAAgAAQABUA=</HashCode>
+      <FileName>Assets\Scripts\FaceBook\FBScripts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareAndRate" Collapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FaceBook\ShareAndRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEnum" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LevelLoad\GameEnum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelData" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAkAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LevelLoad\LevelData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnType" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAAAAAAwAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LevelLoad\LevelData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelInfo" Collapsed="true">
+    <Position X="22" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LevelLoad\LevelInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelLoader" Collapsed="true">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAAAEAEA=</HashCode>
+      <FileName>Assets\Scripts\LevelLoad\LevelLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelManager" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAEESAAACAQAAAIFAAgDACRAAAAAABDABQAAACAgcA=</HashCode>
+      <FileName>Assets\Scripts\LevelLoad\LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelString" Collapsed="true">
+    <Position X="25.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAABAAEA=</HashCode>
+      <FileName>Assets\Scripts\LevelLoad\LevelString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QA4EiAACABgIAAAABABAgICAABAQAAApIAAICAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Manager\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreManager" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAgAACAgAgIAAEAgAAIAAAAAAAABAAAAAAAAAMA=</HashCode>
+      <FileName>Assets\Scripts\Manager\ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundBase" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Manager\SoundBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager" Collapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAASAQAECAACABAAAgAECABAAAMAIQsAAAQAQAKOBA=</HashCode>
+      <FileName>Assets\Scripts\Manager\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIManager" Collapsed="true">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABKWjBCAQGgIpIGAYAaYAcgEQAlKBABHAgIAgQCBBUA=</HashCode>
+      <FileName>Assets\Scripts\Manager\UIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuScripts" Collapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wgAEAAAACCAAAQAAJAAAAAAAIAQAAAAAiAgAAAgAAFA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuScripts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrollSnapRect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQkAQAAACARAACgVKJEEDIAAgkkBKBBAABgDAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\Menu\ScrollSnapRect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Shop" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAIAAACAACAAEIAAAAAAACAAAAEQAAAgAAAAAQEg=</HashCode>
+      <FileName>Assets\Scripts\Menu\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundDialogBox" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\SoundDialogBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterManager" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAQMIYD4TyYEhAQIBEEAEAIBABAR0KEAAATCIFgAAHA=</HashCode>
+      <FileName>Assets\Scripts\Player\CharacterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSnail" Collapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\CharacterSnail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DestroyFlag" Collapsed="true">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAQAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQEA=</HashCode>
+      <FileName>Assets\Scripts\Player\DestroyFlag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController" Collapsed="true">
+    <Position X="19.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBUGAACIwiCEEgnGAABQGAAAAcBAEEAEpCoBAEEAAFM=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerPrefsX" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACRBBlAIAIwPxQAAAFEABQWRQAAAGDLQAgAAEMgghg=</HashCode>
+      <FileName>Assets\Scripts\SavingData\PlayerPrefsX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullScreen" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\ScreenShot\FullScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareScreenShoot" Collapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAAAAAAEAAAABAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\ScreenShot\ShareScreenShoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestIPAD" Collapsed="true">
+    <Position X="27.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScreenShot\TestIPAD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiled2Unity.ImportBehaviour" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAowAAAAgAAAAAAABAAAAAAAAABAAAAAgCAA=</HashCode>
+      <FileName>Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiled2Unity.SortingLayerExposed" Collapsed="true">
+    <Position X="22" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiled2Unity.SpriteDepthInMap" Collapsed="true">
+    <Position X="25.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AsQAAAAAECAAAAAAAAAAAAABAgAAIAAQAAAAAQAAAYA=</HashCode>
+      <FileName>Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiled2Unity.TileAnimator" Collapsed="true">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACACAAAAAAAACAAAIAAAAAAAAAAAAACAAEA=</HashCode>
+      <FileName>Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiled2Unity.TiledInitialShaderProperties" Collapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiled2Unity.TiledMap" Collapsed="true">
+    <Position X="32.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAASKAAhAABAAAACgAAAAAAAAQhAACAwAAAEA=</HashCode>
+      <FileName>Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GoogleMobileAds.Api.ICustomInAppPurchase" Collapsed="true">
+    <Position X="25.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\ICustomInAppPurchase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GoogleMobileAds.Api.ICustomInAppPurchaseProcessor" Collapsed="true">
+    <Position X="27.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\ICustomInAppPurchaseProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GoogleMobileAds.Api.IDefaultInAppPurchaseProcessor" Collapsed="true">
+    <Position X="30.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\IDefaultInAppPurchaseProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GoogleMobileAds.Api.IInAppPurchaseResult" Collapsed="true">
+    <Position X="32.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\IInAppPurchaseResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GoogleMobileAds.Common.IAdLoaderClient" Collapsed="true">
+    <Position X="22" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Common\IAdLoaderClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GoogleMobileAds.Common.IBannerClient" Collapsed="true">
+    <Position X="23.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAAAAAAAQAAAAAAAAEBAAQQAAAAAAAAAAAAAEAAQAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Common\IBannerClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GoogleMobileAds.Common.ICustomNativeTemplateClient" Collapsed="true">
+    <Position X="29" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAAAAAAIAAAAAAAEAAEAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GoogleMobileAds.Common.IInterstitialClient" Collapsed="true">
+    <Position X="34.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAAAAAAQAAAAAAIAAAAAAQQAACAAACAAABAAEAAAEA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Common\IInterstitialClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GoogleMobileAds.Common.INativeExpressAdClient" Collapsed="true">
+    <Position X="22" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WCAAAAAAAAAAAAAAAAAAAASQAAACAAAAAAAAAEAAQAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Common\INativeExpressAdClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GoogleMobileAds.Common.IRewardBasedVideoAdClient" Collapsed="true">
+    <Position X="23.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0CAAAAAAAAAAAAAIAAACAAQQAAAAAAEAAAAAAEBAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GoogleMobileAds.Api.NativeAdType" Collapsed="true">
+    <Position X="25.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\AdLoader.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GoogleMobileAds.Api.AdPosition" Collapsed="true">
+    <Position X="22" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAABAAAAAQAAAAAAAIAAAAAAAAAAAIAEA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\AdPosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GoogleMobileAds.Api.Gender" Collapsed="true">
+    <Position X="23.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GoogleMobileAds.Api.PurchaseResolutionType" Collapsed="true">
+    <Position X="27.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAgAAAACBAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GoogleMobileAds\Api\ICustomInAppPurchase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

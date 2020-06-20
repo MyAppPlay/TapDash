@@ -1,0 +1,1 @@
+{"Name":"velGame","ObjectsToSpawn":[{"PrefabType":"Level88","PosX":-54.55,"PosY":2961.7,"PosZ":0}]}

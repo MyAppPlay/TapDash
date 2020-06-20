@@ -1,0 +1,1304 @@
+fileFormatVersion: 2
+guid: 657f5bd27e4ea934bae9fd122da68a4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: a_hd_runners-faces_0
+  - first:
+      213: 21300002
+    second: a_hd_runners-faces_1
+  - first:
+      213: 21300004
+    second: a_hd_runners-faces_2
+  - first:
+      213: 21300006
+    second: a_hd_runners-faces_3
+  - first:
+      213: 21300008
+    second: a_hd_runners-faces_4
+  - first:
+      213: 21300010
+    second: a_hd_runners-faces_5
+  - first:
+      213: 21300012
+    second: a_hd_runners-faces_6
+  - first:
+      213: 21300014
+    second: a_hd_runners-faces_7
+  - first:
+      213: 21300016
+    second: a_hd_runners-faces_8
+  - first:
+      213: 21300018
+    second: a_hd_runners-faces_9
+  - first:
+      213: 21300020
+    second: a_hd_runners-faces_10
+  - first:
+      213: 21300022
+    second: a_hd_runners-faces_11
+  - first:
+      213: 21300024
+    second: a_hd_runners-faces_12
+  - first:
+      213: 21300026
+    second: a_hd_runners-faces_13
+  - first:
+      213: 21300028
+    second: a_hd_runners-faces_14
+  - first:
+      213: 21300030
+    second: a_hd_runners-faces_15
+  - first:
+      213: 21300032
+    second: a_hd_runners-faces_16
+  - first:
+      213: 21300034
+    second: a_hd_runners-faces_17
+  - first:
+      213: 21300036
+    second: a_hd_runners-faces_18
+  - first:
+      213: 21300038
+    second: a_hd_runners-faces_19
+  - first:
+      213: 21300040
+    second: a_hd_runners-faces_20
+  - first:
+      213: 21300042
+    second: a_hd_runners-faces_21
+  - first:
+      213: 21300044
+    second: a_hd_runners-faces_22
+  - first:
+      213: 21300046
+    second: a_hd_runners-faces_23
+  - first:
+      213: 21300048
+    second: a_hd_runners-faces_24
+  - first:
+      213: 21300050
+    second: a_hd_runners-faces_25
+  - first:
+      213: 21300052
+    second: a_hd_runners-faces_26
+  - first:
+      213: 21300054
+    second: a_hd_runners-faces_27
+  - first:
+      213: 21300056
+    second: a_hd_runners-faces_28
+  - first:
+      213: 21300058
+    second: a_hd_runners-faces_29
+  - first:
+      213: 21300060
+    second: a_hd_runners-faces_30
+  - first:
+      213: 21300062
+    second: a_hd_runners-faces_31
+  - first:
+      213: 21300064
+    second: a_hd_runners-faces_32
+  - first:
+      213: 21300066
+    second: a_hd_runners-faces_33
+  - first:
+      213: 21300068
+    second: a_hd_runners-faces_34
+  - first:
+      213: 21300070
+    second: a_hd_runners-faces_35
+  - first:
+      213: 21300072
+    second: a_hd_runners-faces_36
+  - first:
+      213: 21300074
+    second: a_hd_runners-faces_37
+  - first:
+      213: 21300076
+    second: a_hd_runners-faces_38
+  - first:
+      213: 21300078
+    second: a_hd_runners-faces_39
+  - first:
+      213: 21300080
+    second: a_hd_runners-faces_40
+  - first:
+      213: 21300082
+    second: a_hd_runners-faces_41
+  - first:
+      213: 21300084
+    second: a_hd_runners-faces_42
+  - first:
+      213: 21300086
+    second: a_hd_runners-faces_43
+  - first:
+      213: 21300088
+    second: a_hd_runners-faces_44
+  - first:
+      213: 21300090
+    second: a_hd_runners-faces_45
+  - first:
+      213: 21300092
+    second: a_hd_runners-faces_46
+  - first:
+      213: 21300094
+    second: a_hd_runners-faces_47
+  - first:
+      213: 21300096
+    second: a_hd_runners-faces_48
+  - first:
+      213: 21300098
+    second: a_hd_runners-faces_49
+  - first:
+      213: 21300100
+    second: a_hd_runners-faces_50
+  - first:
+      213: 21300102
+    second: a_hd_runners-faces_51
+  - first:
+      213: 21300104
+    second: a_hd_runners-faces_52
+  - first:
+      213: 21300106
+    second: a_hd_runners-faces_53
+  - first:
+      213: 21300108
+    second: a_hd_runners-faces_54
+  - first:
+      213: 21300110
+    second: a_hd_runners-faces_55
+  - first:
+      213: 21300112
+    second: a_hd_runners-faces_56
+  - first:
+      213: 21300114
+    second: a_hd_runners-faces_57
+  - first:
+      213: 21300116
+    second: a_hd_runners-faces_58
+  - first:
+      213: 21300118
+    second: a_hd_runners-faces_59
+  - first:
+      213: 21300120
+    second: a_hd_runners-faces_60
+  - first:
+      213: 21300122
+    second: a_hd_runners-faces_61
+  - first:
+      213: 21300124
+    second: a_hd_runners-faces_62
+  - first:
+      213: 21300126
+    second: a_hd_runners-faces_63
+  - first:
+      213: 21300128
+    second: a_hd_runners-faces_64
+  - first:
+      213: 21300130
+    second: a_hd_runners-faces_65
+  - first:
+      213: 21300132
+    second: a_hd_runners-faces_66
+  - first:
+      213: 21300134
+    second: a_hd_runners-faces_67
+  - first:
+      213: 21300136
+    second: a_hd_runners-faces_68
+  - first:
+      213: 21300138
+    second: a_hd_runners-faces_69
+  - first:
+      213: 21300140
+    second: a_hd_runners-faces_70
+  - first:
+      213: 21300142
+    second: a_hd_runners-faces_71
+  - first:
+      213: 21300144
+    second: a_hd_runners-faces_72
+  - first:
+      213: 21300146
+    second: a_hd_runners-faces_73
+  - first:
+      213: 21300148
+    second: a_hd_runners-faces_74
+  - first:
+      213: 21300150
+    second: a_hd_runners-faces_75
+  - first:
+      213: 21300152
+    second: a_hd_runners-faces_76
+  - first:
+      213: 21300154
+    second: a_hd_runners-faces_77
+  - first:
+      213: 21300156
+    second: a_hd_runners-faces_78
+  - first:
+      213: 21300158
+    second: a_hd_runners-faces_79
+  - first:
+      213: 21300160
+    second: a_hd_runners-faces_80
+  - first:
+      213: 21300162
+    second: a_hd_runners-faces_81
+  - first:
+      213: 21300164
+    second: a_hd_runners-faces_82
+  - first:
+      213: 21300166
+    second: a_hd_runners-faces_83
+  - first:
+      213: 21300168
+    second: a_hd_runners-faces_84
+  - first:
+      213: 21300170
+    second: a_hd_runners-faces_85
+  - first:
+      213: 21300172
+    second: a_hd_runners-faces_86
+  - first:
+      213: 21300174
+    second: a_hd_runners-faces_87
+  - first:
+      213: 21300176
+    second: a_hd_runners-faces_88
+  - first:
+      213: 21300178
+    second: a_hd_runners-faces_89
+  - first:
+      213: 21300180
+    second: a_hd_runners-faces_90
+  - first:
+      213: 21300182
+    second: a_hd_runners-faces_91
+  - first:
+      213: 21300184
+    second: a_hd_runners-faces_92
+  - first:
+      213: 21300186
+    second: a_hd_runners-faces_93
+  - first:
+      213: 21300188
+    second: a_hd_runners-faces_94
+  - first:
+      213: 21300190
+    second: a_hd_runners-faces_95
+  - first:
+      213: 21300192
+    second: a_hd_runners-faces_96
+  - first:
+      213: 21300194
+    second: a_hd_runners-faces_97
+  - first:
+      213: 21300196
+    second: a_hd_runners-faces_98
+  - first:
+      213: 21300198
+    second: a_hd_runners-faces_99
+  - first:
+      213: 21300200
+    second: a_hd_runners-faces_100
+  - first:
+      213: 21300202
+    second: a_hd_runners-faces_101
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -5
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 1
+    allowsAlphaSplitting: 1
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 1
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: a_hd_runners-faces_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 743
+        width: 203
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 733
+        width: 207
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 751
+        width: 203
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 759
+        width: 240
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_4
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 757
+        width: 202
+        height: 243
+      alignment: 9
+      pivot: {x: 0.5105458, y: 0.39480376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_6
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 767
+        width: 226
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_8
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 771
+        width: 260
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_9
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 767
+        width: 260
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_10
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 765
+        width: 231
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_11
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 764
+        width: 201
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_12
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 771
+        width: 206
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_13
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 772
+        width: 207
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_14
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 765
+        width: 207
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_22
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 890
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_51
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 413
+        width: 202
+        height: 305
+      alignment: 9
+      pivot: {x: 0.49170405, y: 0.30495036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_53
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 415
+        width: 201
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_54
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 503
+        width: 223
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_57
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 478
+        width: 233
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_58
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 489
+        width: 205
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_63
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 405
+        width: 238
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_65
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 382
+        width: 291
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 359
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_68
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 386
+        width: 264
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_71
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 355
+        width: 346
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_72
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 376
+        width: 205
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_74
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 370
+        width: 262
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_76
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 312
+        width: 202
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_79
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 292
+        width: 236
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_84
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 24
+        width: 251
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_85
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 36
+        width: 240
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_86
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 40
+        width: 315
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_87
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 31
+        width: 289
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_88
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 36
+        width: 270
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_89
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 267
+        width: 31
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 347
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_91
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 36
+        width: 308
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_92
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 48
+        width: 237
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_94
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 26
+        width: 270
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_95
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 28
+        width: 267
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_96
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 31
+        width: 259
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_97
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 3
+        width: 351
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_hd_runners-faces_100
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 189
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: A
+  pSDRemoveMatte: 1
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

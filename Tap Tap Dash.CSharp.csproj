@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67DA59AD-01BE-43E3-B4A9-0F6AE4797EB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>iOS:9</UnityBuildTarget>
+    <UnityVersion>5.4.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.IOS">
+      <HintPath>Assets\FacebookSDK\Plugins\iOS\Facebook.Unity.IOS.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonFx.Json">
+      <HintPath>Assets\Plugin\JsonFx.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Tap Tap Dash.CSharp.Plugins.csproj">
+      <Project>{ACBF643B-34CB-14D4-FA5B-EC6040737F16}</Project>
+      <Name>Tap Tap Dash.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppInvites.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GameGroups.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdLoader.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\ICustomInAppPurchase.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\ICustomInAppPurchaseProcessor.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\IDefaultInAppPurchaseProcessor.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\IInAppPurchaseResult.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Reward.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IBannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IInterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\Utils.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomInAppPurchaseListener.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\DefaultInAppPurchaseListener.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchase.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchaseResult.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\NativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+    <Compile Include="Assets\Scripts\Admobs\Demo.cs" />
+    <Compile Include="Assets\Scripts\Admobs\ErrorNetwork.cs" />
+    <Compile Include="Assets\Scripts\Camera\ChangeColorCamera.cs" />
+    <Compile Include="Assets\Scripts\Camera\FollowCamera.cs" />
+    <Compile Include="Assets\Scripts\Camera\RotationCamera.cs" />
+    <Compile Include="Assets\Scripts\FaceBook\AvataFacebook.cs" />
+    <Compile Include="Assets\Scripts\FaceBook\FBScripts.cs" />
+    <Compile Include="Assets\Scripts\FaceBook\FacebookManager.cs" />
+    <Compile Include="Assets\Scripts\FaceBook\ShareAndRate.cs" />
+    <Compile Include="Assets\Scripts\LevelLoad\GameEnum.cs" />
+    <Compile Include="Assets\Scripts\LevelLoad\LevelData.cs" />
+    <Compile Include="Assets\Scripts\LevelLoad\LevelInfo.cs" />
+    <Compile Include="Assets\Scripts\LevelLoad\LevelLoader.cs" />
+    <Compile Include="Assets\Scripts\LevelLoad\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\LevelLoad\LevelString.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\SoundBase.cs" />
+    <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Menu\MenuScripts.cs" />
+    <Compile Include="Assets\Scripts\Menu\ScrollSnapRect.cs" />
+    <Compile Include="Assets\Scripts\Menu\Shop.cs" />
+    <Compile Include="Assets\Scripts\Menu\SoundDialogBox.cs" />
+    <Compile Include="Assets\Scripts\Player\Character.cs" />
+    <Compile Include="Assets\Scripts\Player\CharacterManager.cs" />
+    <Compile Include="Assets\Scripts\Player\CharacterSnail.cs" />
+    <Compile Include="Assets\Scripts\Player\DestroyFlag.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\SavingData\PlayerPrefsX.cs" />
+    <Compile Include="Assets\Scripts\ScreenShot\FullScreen.cs" />
+    <Compile Include="Assets\Scripts\ScreenShot\ShareScreenShoot.cs" />
+    <Compile Include="Assets\Scripts\ScreenShot\TestIPAD.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Movinarc\PackageUninstaller\README.txt" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver.txt" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\README.txt" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\proguard.txt" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_light.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\wallet_primary_text_holo_light.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\wallet_secondary_text_holo_dark.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\cast_ic_notification_connecting.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-am\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-az-rAZ\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bn-rBD\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-cs\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-da\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rAU\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rGB\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\wallet_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-eu-rES\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fa\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fi\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-gl-rES\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-gu-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hi\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hr\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hu\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hy-rAM\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-is-rIS\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-iw\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ja\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ka-rGE\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kk-rKZ\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-km-rKH\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kn-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ky-rKG\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lo-rLA\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lv\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mk-rMK\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ml-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mn-rMN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mr-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-my-rMM\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nb\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ne-rNP\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nl\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pa-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rBR\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-si-rLK\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sk\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sq-rAL\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sr\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sv\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sw\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ta-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-te-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-th\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uk\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ur-rPK\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uz-rUZ\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-vi\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rHK\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_ads_attrs.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_iap_style.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\auth_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\cast_ids.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\cast_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_colors.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\maps_attrs.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\version.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_attrs.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_colors.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_styles.xml" />
+    <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\unityads\build.xml" />
+    <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_background_button_pause.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_play.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_base.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_triangle.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_waves.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_audio_toggle.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_pause.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_paused.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_play.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
+    <None Include="Assets\Resources\Levels\Level1\Level1.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level10.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level100.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level101.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level11.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level12.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level13.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level14.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level15.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level16.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level17.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level18.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level19.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level2.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level20.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level21.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level22.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level23.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level24.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level25.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level26.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level27.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level28.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level29.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level3.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level30.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level31.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level32.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level33.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level34.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level35.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level36.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level37.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level38.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level39.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level4.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level40.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level41.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level42.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level43.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level44.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level45.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level46.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level47.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level48.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level49.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level5.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level50.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level51.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level52.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level53.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level54.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level55.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level56.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level57.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level58.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level59.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level6.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level60.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level61.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level62.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level63.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level64.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level65.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level66.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level67.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level68.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level69.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level7.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level70.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level71.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level72.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level73.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level74.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level75.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level76.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level77.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level78.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level79.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level8.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level80.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level81.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level82.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level83.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level84.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level85.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level86.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level87.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level88.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level89.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level9.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level90.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level91.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level92.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level93.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level94.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level95.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level96.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level97.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level98.txt" />
+    <None Include="Assets\Resources\Levels\Level1\Level99.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\EndLevel.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level1.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level10.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level100.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level11.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level12.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level13.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level14.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level15.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level16.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level17.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level18.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level19.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level2.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level20.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level21.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level22.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level23.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level24.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level25.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level26.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level27.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level28.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level29.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level3.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level30.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level31.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level32.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level33.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level34.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level35.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level36.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level37.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level38.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level39.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level4.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level40.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level41.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level42.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level43.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level44.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level45.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level46.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level47.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level48.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level49.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level5.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level50.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level51.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level52.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level53.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level54.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level55.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level56.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level57.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level58.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level59.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level6.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level60.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level61.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level62.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level63.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level64.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level65.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level66.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level67.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level68.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level69.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level7.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level70.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level71.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level72.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level73.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level74.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level75.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level76.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level77.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level78.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level79.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level8.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level80.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level81.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level82.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level83.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level84.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level85.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level86.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level87.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level88.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level89.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level9.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level90.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level91.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level92.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level93.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level94.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level95.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level96.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level97.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level98.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level99.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\hahahah.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\License.txt" />
+    <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+    <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
